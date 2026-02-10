@@ -1,0 +1,30 @@
+name: Deploy Existing PDF
+
+on:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create Redirect
+        run: |
+          PDF_FILE=$(basename $(ls output/pdf/*.pdf | head -n 1))
+          echo "<html><head><meta http-equiv='refresh' content='0; url=$PDF_FILE' /></head></html>" > output/pdf/index.html
+
+      - name: Upload and Deploy
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'output/pdf'
+
+      - name: Deploy to Pages
+        uses: actions/deploy-pages@v4
