@@ -4,7 +4,7 @@
 ## Professional Summary
 **Mid-senior level experienced software engineer** and **Frontend Lead** with a demonstrable track record of shipping successful software products and services across multiple release cycles. Extensive experience in architecting high-scale React applications and data-driven dashboards. Specialized in **TypeScript, C/C++, and modern state management**, with a proven ability to transform complex business logic—ranging from system software modules to multi-role scheduling systems—into performant, user-centric solutions.
 
-## Core Competencies
+## Skills Highlight
 
 **Frontend Architecture & UI/UX**
 * Accelerated manual scheduling process by 50% by developing Admin scheduling dashboards, progress trackers and bulk notification panels.
@@ -25,12 +25,13 @@
 ## Technical Skills
 * **Programming Languages:** C, C++, Python, Bash, TypeScript, JavaScript (ES6+), UML, YAML, XML.
 * **Libraries & Frameworks:** NPM, React, (TanStack Query), Tailwind CSS, Vite, PostgreSQL
-* **Tools & Infrastructure:** Git, Gerrit, Jira, Jenkins, VectorCast, Code collaborator, Sphinx, Google Maps API.
-* **Methodologies:** Agile/Scrum, Software Development Lifecycle (SDLC), Cross-functional collaboration.
+* **Tools & Infrastructure:** Git, Gerrit, Jira, Jenkins, VectorCast, Code collaborator, Sphinx, Google Maps API, prompt-based coding
+* **Methodologies:** Agile/Scrum, Software Development Lifecycle (SDLC), Cross-functional collaboration, test driven development (TDD), prompt engineering, AI assisted programming.
 
 ## Work Experience
 
 Lane | Software Consultant (Full-stack)
+
 Nvidia | System Software Engineer
 
 ## Education
